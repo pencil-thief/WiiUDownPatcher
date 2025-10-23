@@ -48,7 +48,7 @@ void patchFile(HWND hwnd) {
 
     std::ifstream inFile(selectedFilePath, std::ios::binary);
     if (!inFile) {
-        MessageBoxW(hwnd, L"Failed to open file.", L"Error", MB_OK | MB_ICONERROR);
+        MessageBoxW(hwnd, L"Failed to open versions.bin.", L"Error", MB_OK | MB_ICONERROR);
         return;
     }
 
@@ -122,7 +122,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE, PWSTR, int nCmdShow) {
     RegisterClassW(&wc);
 
     HWND hwnd = CreateWindowExW(0, CLASS_NAME, L"WiiU Title ID Patcher",
-        WS_OVERLAPPEDWINDOW, CW_USEDEFAULT, CW_USEDEFAULT, 320, 160,
+        WS_OVERLAPPED | WS_CAPTION | WS_SYSMENU, CW_USEDEFAULT, CW_USEDEFAULT, 320, 160,
         NULL, NULL, hInstance, NULL);
 
     if (hwnd == NULL) return 0;
