@@ -6,7 +6,7 @@ STEP 1: Delete the update data for the desired game (Main Menu -> settings -> Da
 STEP 2: Launch CFW  
 STEP 3: Launch Homebrew Launcher  
 STEP 4: Install the app "FTPiiU Everywhere" from the homebrew store  
-STEP 5: On another device (Linux or Windows) install an FTP client - NOTE This is not an ftp client!!  
+STEP 5: On another device (Linux or Windows) install an FTP client - NOTE This program i made is not an ftp client!!  
 STEP 6: Launch "FTPiiU Everywhere" on your Wii U - Make a note of the displayed IP  
 STEP 7: Conncet to the displayed IP via the FTP client on your PC  
 STEP 8: Navigate to "storage_slc/security" and copy the "versions.bin" file to the PC - you can then close the FTP  
