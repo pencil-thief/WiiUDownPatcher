@@ -1,3 +1,5 @@
+Wii U Game Down Patcher
+
 Steps for use:  
 Firstly, make sure you have CFW installed on your wiiu, if not look at the following guide; https://wiiu.hacks.guide/  
 
