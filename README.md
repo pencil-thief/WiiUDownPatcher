@@ -16,3 +16,7 @@ STEP 11: locate and open the versions.bin file with the "open file button"
 STEP 12: Patch!!  
 STEP 13: Re-establish the FTP using "FTPiiU Everywhere, and replace the file on your system with the newer, patched file  
 Step 14: Enjoy! :)
+
+
+NOTE -- This code is probably very sloppy, i would've rather made it in python but wtv. THERE MAY BE IUSSUES - CONSOLE COULD BE BRICKED!!!!!! always double check the versions.bin and make the only chnaged are in the line of the titleID.  
+Tested with Minecraft:WiiU edition - shoudl theoretically work with every downloadable game, would only reset disc games to base version - e.g. if your disc is version 1.1 you cant go to version 1.0 no matter what.
